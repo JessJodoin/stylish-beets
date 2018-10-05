@@ -43,6 +43,23 @@ figure + p {
   font-weight: bold;
 }
 
-p {
-  font-size: 1.125rem;
+b {
+  font-weight: bold;
+}
+
+blockquote  p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote footer > cite {
+  font-size: 0.8rem;
+}
+
+strong {
+  font-weight: none;
+}
+
+ol {
+  list-style-type: lower-greek;
 }
