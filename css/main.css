@@ -1,4 +1,5 @@
 html {
+  font-family: "PT Sans", sans-serif;
   font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   line-height: 1.5;
@@ -10,25 +11,26 @@ img {
 
 h1, h2 {
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   color: #3f1622;
 }
 
 nav {
   font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 }
+
 nav ol {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
@@ -47,21 +49,18 @@ b {
   font-weight: bold;
 }
 
-blockquote  p {
+blockquote p {
   font-size: 1.5rem;
   font-style: italic;
 }
 
 blockquote footer > cite {
-  font-size: 0.8rem;
-}
-
-strong {
-  font-weight: none;
+  font-size: .8rem;
 }
 
 ol {
   list-style-type: lower-greek;
+  text-size: 1.125rem;
 }
 
 h2 + p {
@@ -75,15 +74,14 @@ dl dt {
 
 ul {
   list-style-type: circle;
-  font-size: 0.8rem;
 }
 
-footer a {
+.footer a {
   color: #8f2440;
   text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
