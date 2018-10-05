@@ -63,3 +63,12 @@ strong {
 ol {
   list-style-type: lower-greek;
 }
+
+h2 + p {
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
